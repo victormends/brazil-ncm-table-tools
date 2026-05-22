@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{622131F2-17DE-49B8-A5B1-142A7C838938}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NcmCsvConverter", "src\NcmCsvConverter\NcmCsvConverter.csproj", "{68427F35-3E95-4872-AF53-ABDFE3A3482E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D053CE2E-3796-45E1-ABD8-3E01AA128FEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NcmCsvConverter.Tests", "tests\NcmCsvConverter.Tests\NcmCsvConverter.Tests.csproj", "{48C81856-8256-4221-A51E-A084C7A511E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68427F35-3E95-4872-AF53-ABDFE3A3482E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68427F35-3E95-4872-AF53-ABDFE3A3482E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68427F35-3E95-4872-AF53-ABDFE3A3482E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68427F35-3E95-4872-AF53-ABDFE3A3482E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48C81856-8256-4221-A51E-A084C7A511E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48C81856-8256-4221-A51E-A084C7A511E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48C81856-8256-4221-A51E-A084C7A511E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48C81856-8256-4221-A51E-A084C7A511E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{68427F35-3E95-4872-AF53-ABDFE3A3482E} = {622131F2-17DE-49B8-A5B1-142A7C838938}
+		{48C81856-8256-4221-A51E-A084C7A511E4} = {D053CE2E-3796-45E1-ABD8-3E01AA128FEA}
+	EndGlobalSection
+EndGlobal

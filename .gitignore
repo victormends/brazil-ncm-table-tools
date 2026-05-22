@@ -1,0 +1,17 @@
+bin/
+obj/
+out/
+dist/
+data/
+
+*.exe
+*.zip
+*.tmp
+
+Tabela_NCM_Vigente*.json
+ncm*.json
+ncm*.csv
+*.csv
+
+!tests/fixtures/*.json
+!tests/fixtures/*.csv

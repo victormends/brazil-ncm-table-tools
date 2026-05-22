@@ -1,0 +1,8 @@
+code;description;contextual_description;parent_code;digit_level;selectable;start_date;end_date;has_scheduled_end_date;initial_legal_act;path;search_text
+01;Animais vivos;Animais vivos;;2;false;01/01/2020;31/12/9999;false;Resolucao 1/2020;Animais vivos;Animais vivos
+0101;Cavalos;Cavalos;01;4;false;01/01/2020;31/12/9999;false;Resolucao 1/2020;Animais vivos > Cavalos;Animais vivos Cavalos
+01012;Outros;Cavalos - Outros;0101;5;false;01/01/2021;31/12/9999;false;Resolucao 2/2021;Animais vivos > Cavalos > Cavalos - Outros;Animais vivos Cavalos Cavalos - Outros
+010121;Reprodutores;Reprodutores;01012;6;false;01/01/2022;31/12/9999;false;Resolucao 3/2022;Animais vivos > Cavalos > Cavalos - Outros > Reprodutores;Animais vivos Cavalos Cavalos - Outros Reprodutores
+0101210;De raca pura;De raca pura;010121;7;false;01/01/2023;31/12/2026;true;Resolucao 4/2023;Animais vivos > Cavalos > Cavalos - Outros > Reprodutores > De raca pura;Animais vivos Cavalos Cavalos - Outros Reprodutores De raca pura
+01012100;Outras;De raca pura - Outras;0101210;8;true;01/02/2026;31/12/2026;true;Resolucao 5/2026;Animais vivos > Cavalos > Cavalos - Outros > Reprodutores > De raca pura > De raca pura - Outras;Animais vivos Cavalos Cavalos - Outros Reprodutores De raca pura De raca pura - Outras
+01012900;"Com ponto; virgula e ""aspas""";"Com ponto; virgula e ""aspas""";01012;8;true;01/01/2024;31/12/9999;false;Resolucao 6/2024;"Animais vivos > Cavalos > Cavalos - Outros > Com ponto; virgula e ""aspas""";"Animais vivos Cavalos Cavalos - Outros Com ponto; virgula e ""aspas"""

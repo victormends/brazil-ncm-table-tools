@@ -1,0 +1,69 @@
+{
+  "Data_Ultima_Atualizacao_NCM": "Fixture",
+  "Ato": "Fixture Act",
+  "Nomenclaturas": [
+    {
+      "Codigo": "01",
+      "Descricao": "Animais vivos",
+      "Data_Inicio": "01/01/2020",
+      "Data_Fim": "31/12/9999",
+      "Tipo_Ato_Ini": "Resolucao",
+      "Numero_Ato_Ini": "1",
+      "Ano_Ato_Ini": "2020"
+    },
+    {
+      "Codigo": "01.01",
+      "Descricao": "- Cavalos",
+      "Data_Inicio": "01/01/2020",
+      "Data_Fim": "31/12/9999",
+      "Tipo_Ato_Ini": "Resolucao",
+      "Numero_Ato_Ini": "1",
+      "Ano_Ato_Ini": "2020"
+    },
+    {
+      "Codigo": "0101.2",
+      "Descricao": "-- Outros",
+      "Data_Inicio": "01/01/2021",
+      "Data_Fim": "31/12/9999",
+      "Tipo_Ato_Ini": "Resolucao",
+      "Numero_Ato_Ini": "2",
+      "Ano_Ato_Ini": "2021"
+    },
+    {
+      "Codigo": "0101.21",
+      "Descricao": "--- Reprodutores",
+      "Data_Inicio": "01/01/2022",
+      "Data_Fim": "31/12/9999",
+      "Tipo_Ato_Ini": "Resolucao",
+      "Numero_Ato_Ini": "3",
+      "Ano_Ato_Ini": "2022"
+    },
+    {
+      "Codigo": "0101.21.0",
+      "Descricao": "---- De raca pura",
+      "Data_Inicio": "01/01/2023",
+      "Data_Fim": "31/12/2026",
+      "Tipo_Ato_Ini": "Resolucao",
+      "Numero_Ato_Ini": "4",
+      "Ano_Ato_Ini": "2023"
+    },
+    {
+      "Codigo": "0101.21.00",
+      "Descricao": "----- Outras",
+      "Data_Inicio": "01/02/2026",
+      "Data_Fim": "31/12/2026",
+      "Tipo_Ato_Ini": "Resolucao",
+      "Numero_Ato_Ini": "5",
+      "Ano_Ato_Ini": "2026"
+    },
+    {
+      "Codigo": "0101.29.00",
+      "Descricao": "Com ponto; virgula e \"aspas\"",
+      "Data_Inicio": "01/01/2024",
+      "Data_Fim": "31/12/9999",
+      "Tipo_Ato_Ini": "Resolucao",
+      "Numero_Ato_Ini": "6",
+      "Ano_Ato_Ini": "2024"
+    }
+  ]
+}
