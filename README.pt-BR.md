@@ -10,6 +10,10 @@ Ferramentas Windows-first em .NET e PowerShell para baixar a tabela NCM oficial 
 
 Documentação em inglês: [README.md](README.md).
 
+Documentação operacional avançada, atualmente em inglês:
+
+- [Operator guide](docs/operator-guide.md)
+
 ## Por Que Este Projeto Existe
 
 Sistemas ERP normalmente não deveriam consultar o Siscomex em tempo real para cada produto. Eles precisam de uma tabela mestra local de NCM que seja pesquisável, auditável, importável e comparável com segurança entre atualizações oficiais.
@@ -146,6 +150,8 @@ Colunas:
 - Mantenha a hierarquia completa para navegação, busca e contexto.
 - Não delete NCMs antigos cegamente; produtos e notas históricas podem precisar de rastreabilidade.
 
+Veja o [operator guide](docs/operator-guide.md) para orientações de staging, busca e revisão manual.
+
 ## Fluxo Seguro De Atualização
 
 1. Baixe o novo JSON oficial para uma área de staging.
@@ -157,6 +163,8 @@ Colunas:
 7. Nunca reclassifique produtos automaticamente.
 
 Para sugestões, priorize candidatos com mesmo pai, prefixo mais próximo, similaridade textual, similaridade de caminho anterior, `selectable = true` e `start_date` recente como critério de desempate.
+
+Veja o [operator guide](docs/operator-guide.md) para uma rotina downstream mais completa de snapshot e comparação. Este repositório ainda não fornece uma ferramenta de diff entre snapshots.
 
 ## Política De Dados
 

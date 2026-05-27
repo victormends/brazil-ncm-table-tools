@@ -10,6 +10,10 @@ Windows-first .NET and PowerShell tools to download Brazil's official NCM table 
 
 Portuguese documentation: [README.pt-BR.md](README.pt-BR.md).
 
+Operator documentation:
+
+- [Operator guide](docs/operator-guide.md)
+
 ## Why This Exists
 
 ERP systems usually should not query Siscomex live for every product lookup. They need a local, auditable NCM master table that can be searched, imported, and compared safely between official updates.
@@ -146,6 +150,8 @@ Columns:
 - Keep the full hierarchy for browsing, search, and context.
 - Do not delete old NCMs blindly; historical products and invoices may need auditability.
 
+See the [operator guide](docs/operator-guide.md) for staging, search, and manual-review guidance.
+
 ## Safe Update Workflow
 
 1. Download the new official JSON to a staging location.
@@ -157,6 +163,8 @@ Columns:
 7. Never auto-reclassify products.
 
 For suggestions, prefer candidates with the same parent, closest prefix, similar text, previous path similarity, `selectable = true`, and recent `start_date` as a tie-breaker.
+
+See the [operator guide](docs/operator-guide.md) for a fuller downstream snapshot/diff routine. This repository does not currently provide a snapshot diff tool.
 
 ## Data Policy
 
